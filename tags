@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+<b>[format][l/s][delimiter]</b> e.g. "mdyl/"	README.md	/^#### <b>[format][l\/s][delimiter]<\/b> e.g. "mdyl\/"  $/;"	t	subsection:Functions""formated output functions""date format accepts following arguments
+BUT	README.md	/^## BUT$/;"	s	chapter:Contributing
+Contributing	README.md	/^# Contributing$/;"	c
+Features:	README.md	/^# Features:$/;"	c
+Functions	README.md	/^# Functions$/;"	c
+Installation	README.md	/^# Installation$/;"	c
+Our focus is <b>storing</b> a time for later use <b>not getting</b> the current time.	README.md	/^### Our focus is <b>storing<\/b> a time for later use <b>not getting<\/b> the current time.   $/;"	S	section:Why?
+Time	my_time.php	/^class Time{$/;"	c
+We are also looking for translations to other languages (documentation or code)!!	README.md	/^### We are also looking for translations to other languages (documentation or code)!!  $/;"	S	section:Contributing""BUT
+We will happily accept maintenance merges <b>AND new features</b> if they expand the functionality of the library.	README.md	/^### We will happily accept maintenance merges <b>AND new features<\/b> if they expand the functi/;"	S	section:Contributing""BUT
+Why?	README.md	/^## Why?$/;"	s
+_months	my_time.php	/^	private $_months=array("January",$/;"	v	class:Time
+_to_min	my_time.php	/^		function _to_min()$/;"	f	class:Time
+_week_days	my_time.php	/^	private $_week_days=array("Monday",$/;"	v	class:Time
+check_after_minutes	my_time.php	/^		function check_after_minutes($min)$/;"	f	class:Time
+check_before_minutes	my_time.php	/^		function check_before_minutes($min)$/;"	f	class:Time
+compare	my_time.php	/^		function compare($comp)$/;"	f	class:Time
+date format accepts following arguments	README.md	/^### date format accepts following arguments$/;"	S	section:Functions""formated output functions
+day	my_time.php	/^	public $day;$/;"	v	class:Time
+formated output functions	README.md	/^## formated output functions$/;"	s	chapter:Functions
+fromString	my_time.php	/^		function fromString($str)$/;"	f	class:Time
+getTime	my_time.php	/^		function getTime()$/;"	f	class:Time
+get_day	my_time.php	/^		function get_day()$/;"	f	class:Time
+get_hour	my_time.php	/^		function get_hour()$/;"	f	class:Time
+get_minute	my_time.php	/^		function get_minute()$/;"	f	class:Time
+get_month	my_time.php	/^		function get_month()$/;"	f	class:Time
+get_second	my_time.php	/^		function get_second()$/;"	f	class:Time
+get_weekday	my_time.php	/^		function get_weekday()$/;"	f	class:Time
+get_year	my_time.php	/^		function get_year()$/;"	f	class:Time
+hour	my_time.php	/^	public $hour;$/;"	v	class:Time
+min	my_time.php	/^		function min()$/;"	f	class:Time
+minute	my_time.php	/^	public $minute;$/;"	v	class:Time
+month	my_time.php	/^	public $month;$/;"	v	class:Time
+operators	README.md	/^## operators$/;"	s	chapter:Functions
+second	my_time.php	/^	public $second;$/;"	v	class:Time
+time format argument	README.md	/^### time format argument$/;"	S	section:Functions""formated output functions
+time functions	README.md	/^## time functions$/;"	s	chapter:Functions
+toString	my_time.php	/^		function toString()$/;"	f	class:Time
+toStringf	my_time.php	/^		function toStringf($format,$time_format,$week_day_flag)$/;"	f	class:Time
+weekday	my_time.php	/^	public $weekday;$/;"	v	class:Time
+year	my_time.php	/^	public $year;$/;"	v	class:Time
