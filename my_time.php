@@ -88,6 +88,7 @@ class Time{
 				$DATE.=$this->hour.";";
 				$DATE.=$this->minute.";";
 				$DATE.=$this->second.";";
+			return $DATE;
 			}
 		function toStringf($format,$time_format,$week_day_flag)
 			{
@@ -218,5 +219,6 @@ class Time{
 
 //$test=new Time();
 //$test->getTime();
+//echo $test->toString();
 //echo $test->toStringf("dmyl-","c",1);
 ?>
